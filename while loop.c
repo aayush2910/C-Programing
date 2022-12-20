@@ -5,8 +5,9 @@ int main (){
     printf("enter all no. from 1 to :");
     scanf("%d",&end);
     i=1;
-    while(i<=end){
-        printf("%d\n",i);
+    while(i<=end)          //in while first check the condition
+    {                      //if true then enters into the body and execute it and again goes to check the condition
+        printf("%d\n",i);  //if the conditions is false then it terminates or exits from the loop
         i++;
     }
     return 0;
@@ -49,7 +50,7 @@ int main(){
         i++;
     }
     return 0;
-}*/
+}
 //odd natural no. from 1 to 100
 #include<stdio.h>
 int main(){
@@ -65,4 +66,4 @@ int main(){
         i++;
     }
     return 0;
-}
+}*/
