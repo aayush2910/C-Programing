@@ -27,21 +27,21 @@
 //         printf("factorial of %d is:%d\n",n,fact);
 //     return 0;
 // }
-#include<stdio.h>
-int main(){
-    int i,n;
-    printf("enter the no.\n");
-    scanf("%d",&n);
-    for(i=0;i<n;i++)
-    {
-        for(int j=0;j<i+1;j++)
-        {
-            printf("*");
-        }
-        printf("\n");
-    }
-    return 0;
-}
+// #include<stdio.h>
+// int main(){
+//     int i,n;
+//     printf("enter the no.\n");
+//     scanf("%d",&n);
+//     for(i=0;i<n;i++)
+//     {
+//         for(int j=0;j<i+1;j++)
+//         {
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+//     return 0;
+// }
 // #include<stdio.h>
 // int main(){
 //     int i,n;
@@ -159,30 +159,30 @@ int main(){
 //     return 0;
 // }
 // program for prime no.
-// #include<stdio.h>
-// int main(){
-//     int i ,n ;
-//     printf("enter the no.:");
-//     scanf("%d",&n);
-//     for(i=2;i<=n-1;i++){
-//         if(n%2==0){
-//             printf("not a prime");
-//             break;
-//         }
-//     }
-//     if(i==n){
-//         printf("prime no.\n");
-//     }
-// }
 #include<stdio.h>
 int main(){
-    int n,arr[5],i;
+    int i ,n ;
     printf("enter the no.:");
-    for(i=0;i<5;i++){
-        scanf("%d",&arr[i]);
+    scanf("%d",&n);
+    for(i=2;i<=n-1;i++){
+        if(n%2==0){
+            printf("not a prime");
+            break;
+        }
     }
-    printf("entered array value are:\n");
-    for(i=0;i<5;i++){
-        printf("%d\t",arr[i]);
+    if(i==n){
+        printf("prime no.\n");
     }
 }
+// #include<stdio.h>
+// int main(){
+//     int n,arr[5],i;
+//     printf("enter the no.:");
+//     for(i=0;i<5;i++){
+//         scanf("%d",&arr[i]);
+//     }
+//     printf("entered array value are:\n");
+//     for(i=0;i<5;i++){
+//         printf("%d\t",arr[i]);
+//     }
+// }
