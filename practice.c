@@ -157,7 +157,7 @@
 //     }
 //     }
 //     return 0;
-// }
+// // }
 // program for prime no.
 #include<stdio.h>
 int main(){
@@ -165,7 +165,7 @@ int main(){
     printf("enter the no.:");
     scanf("%d",&n);
     for(i=2;i<=n-1;i++){
-        if(n%2==0){
+        if(n%i==0){
             printf("not a prime");
             break;
         }
@@ -185,4 +185,39 @@ int main(){
 //     for(i=0;i<5;i++){
 //         printf("%d\t",arr[i]);
 //     }
+// }
+//#include <stdio.h>
+
+// int main(){
+//     /*int i=66;
+//     int j=55;
+//     int k=44;
+//     int sum = i+j+k;
+
+//     float per = sum / 3;
+//     printf(" \n%f",per);*/
+
+//     int a;
+//     printf("enter the number of rows");
+//     scanf("%d", &a);
+
+//     for(int i=1;i<=a; i++){
+//         for(int j=1;j<=a-i;j++){
+//             printf("*");
+//         }
+//         printf("\n");
+//     }
+    
+//     return 0;
+// }
+
+// #include <stdio.h> 
+
+// int main(){
+//     int n;
+//     printf("my self Aayush Fulara .\n");
+//     printf("the no i type can be something.\n");
+//     scanf("%d",&n);
+//     printf("The no is:%d.\n");
+//     return 0;
 // }

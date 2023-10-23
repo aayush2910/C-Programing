@@ -106,13 +106,29 @@
 //     printf("Factorial of %d is %ld\n",num,fact);
 //     return 0;
 // }
+// #include<stdio.h>
+// int main(){
+//     int i,n;
+//     printf("enter the no.:");
+//     scanf("%d",&n);
+//     for(i=1;i<=10;i++){
+//         printf(" %d *%d = %d\n",n,i,(n*i));
+//     }
+//     return 0;
+// }
 #include<stdio.h>
 int main(){
-    int i,n;
-    printf("enter the no.:");
-    scanf("%d",&n);
-    for(i=1;i<=10;i++){
-        printf(" %d *%d = %d\n",n,i,(n*i));
-    }
+    float a=1.0;
+    int b=60;
+    float c=(1.0/60);   
+    int d= 7/3;   
+    int e= 7%3;
+    float g= a/b;
+    float f = 240/60;
+    printf("%.3f\n",c);
+    printf("%d\n",d);
+    printf("%d\n",e);
+    printf("%f\n",f);
+    printf("%f\n",g);
     return 0;
 }
